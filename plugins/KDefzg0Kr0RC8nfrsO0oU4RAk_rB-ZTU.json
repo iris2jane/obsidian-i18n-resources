@@ -1,0 +1,648 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "better-plugins-manager",
+        "version": "1.0.0",
+        "title": "Better Plugins Manager",
+        "description": "Better Plugins Manager Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.4.3",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "troubleshoot-list enabled",
+                    "target": "troubleshoot-list enabled"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--actions",
+                    "target": "manager-section manager-section--actions"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "manager-section manager-section--filters",
+                    "target": "manager-section manager-section--filters"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "打开目录失败",
+                    "target": "打开目录失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "加载仓库缓存失败",
+                    "target": "加载仓库缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "写入仓库缓存失败",
+                    "target": "写入仓库缓存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取社区插件清单失败",
+                    "target": "获取社区插件清单失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to create report:",
+                    "target": "[BPM] Failed to create report:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fallback to raw tag failed",
+                    "target": "fallback to raw tag failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "fetch versions in modal failed",
+                    "target": "fetch versions in modal failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Restore failed:",
+                    "target": "[BPM] Restore failed:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "检查更新时出错:",
+                    "target": "检查更新时出错:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] reload manifests failed",
+                    "target": "[BPM] reload manifests failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to read community-plugins.json:",
+                    "target": "[BPM] Failed to read community-plugins.json:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to write community-plugins.json:",
+                    "target": "[BPM] Failed to write community-plugins.json:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to load workspace config",
+                    "target": "[BPM] Failed to load workspace config"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] Failed to save workspace config",
+                    "target": "[BPM] Failed to save workspace config"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to save on unload",
+                    "target": "Failed to save on unload"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] startup check updates failed",
+                    "target": "[BPM] startup check updates failed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步启用/禁用插件失败",
+                    "target": "同步启用/禁用插件失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "同步导入 BPM 笔记失败",
+                    "target": "同步导入 BPM 笔记失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "解析仓库映射失败",
+                    "target": "解析仓库映射失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "导出 BPM 笔记失败",
+                    "target": "导出 BPM 笔记失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdates error",
+                    "target": "[BPM] checkUpdates error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] checkUpdateForPlugin error",
+                    "target": "[BPM] checkUpdateForPlugin error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "获取官方插件 stats 失败",
+                    "target": "获取官方插件 stats 失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[BPM] fetchGithubVersions error",
+                    "target": "[BPM] fetchGithubVersions error"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install from GitHub",
+                    "target": "[BPM] install from GitHub"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] release assets picked",
+                    "target": "[BPM] release assets picked"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] release asset fetch failed, will fallback",
+                    "target": "[BPM] release asset fetch failed, will fallback"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] fallback to raw tag",
+                    "target": "[BPM] fallback to raw tag"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest parsed",
+                    "target": "[BPM] manifest parsed"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] writing files",
+                    "target": "[BPM] writing files"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] manifest after reload",
+                    "target": "[BPM] manifest after reload"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] install complete",
+                    "target": "[BPM] install complete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData manifests size:",
+                    "target": "[BPM] render showData manifests size:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData uniquePlugins:",
+                    "target": "[BPM] render showData uniquePlugins:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData before loop, children:",
+                    "target": "[BPM] render showData before loop, children:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "children before add:",
+                    "target": "children before add:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] render showData after loop, cards:",
+                    "target": "[BPM] render showData after loop, cards:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "ids:",
+                    "target": "ids:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] reloadShowData end, children after render:",
+                    "target": "[BPM] reloadShowData end, children after render:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Workspace config saved successfully.",
+                    "target": "[BPM] Workspace config saved successfully."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] Detected workspace config change, reloading...",
+                    "target": "[BPM] Detected workspace config change, reloading..."
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;",
+                    "target": "padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;",
+                    "target": "padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] checkUpdates start, total manifests:",
+                    "target": "[BPM] checkUpdates start, total manifests:"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update official match",
+                    "target": "[BPM] update official match"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update github match",
+                    "target": "[BPM] update github match"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] update unknown source",
+                    "target": "[BPM] update unknown source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update official",
+                    "target": "[BPM] single update official"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update github",
+                    "target": "[BPM] single update github"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "[BPM] single update unknown source",
+                    "target": "[BPM] single update unknown source"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "刷新插件",
+                    "target": "刷新插件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "测试插件",
+                    "target": "测试插件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "移动端暂不支持打开文件夹，请在桌面端操作。",
+                    "target": "移动端暂不支持打开文件夹，请在桌面端操作。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "未找到 manifest.json 或 main.js，请检查发布资产或仓库 tag。",
+                    "target": "未找到 manifest.json 或 main.js，请检查发布资产或仓库 tag。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "manifest.json 缺少 id 字段，无法安装。",
+                    "target": "manifest.json 缺少 id 字段，无法安装。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "主题 manifest 缺少 name 字段。",
+                    "target": "主题 manifest 缺少 name 字段。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "主题安装失败，请检查仓库地址/版本或网络状态。",
+                    "target": "主题安装失败，请检查仓库地址/版本或网络状态。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "保存 Ribbon 配置失败，请查看控制台",
+                    "target": "保存 Ribbon 配置失败，请查看控制台"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "正在应用更改，请勿频繁操作。",
+                    "target": "正在应用更改，请勿频繁操作。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "默认延迟",
+                    "target": "默认延迟"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "🔌",
+                    "target": "🔌"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"\\u6253\\u5F00\\u76EE\\u5F55\\u5931\\u8D25\", e);\n    new import_obsidian.Notice(manager.translator.t(\"\\u901A\\u7528_\\u5931\\u8D25_\\u6587\\u672C\")",
+                    "target": "error(\"\\u6253\\u5F00\\u76EE\\u5F55\\u5931\\u8D25\", e);\n    new import_obsidian.Notice(manager.translator.t(\"\\u901A\\u7528_\\u5931\\u8D25_\\u6587\\u672C\")"
+                },
+                {
+                    "source": "setName(`\\u2705 ${this.t(\"\\u6392\\u67E5_\\u5B8C\\u6210_\\u6807\\u9898\")}`)",
+                    "target": "setName(`\\u2705 ${this.t(\"\\u6392\\u67E5_\\u5B8C\\u6210_\\u6807\\u9898\")}`)"
+                },
+                {
+                    "source": "setButtonText(`\\u{1F4CA} ${this.t(\"\\u6392\\u67E5_\\u751F\\u6210\\u62A5\\u544A_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u{1F4CA} ${this.t(\"\\u6392\\u67E5_\\u751F\\u6210\\u62A5\\u544A_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "Notice(`${this.t(\"\\u6392\\u67E5_\\u62A5\\u544A\\u5DF2\\u751F\\u6210_\\u901A\\u77E5\")}: ${fileName}`)",
+                    "target": "Notice(`${this.t(\"\\u6392\\u67E5_\\u62A5\\u544A\\u5DF2\\u751F\\u6210_\\u901A\\u77E5\")}: ${fileName}`)"
+                },
+                {
+                    "source": "error(\"[BPM] Failed to create report:\", e);\n      new import_obsidian9.Notice(this.t(\"\\u6392\\u67E5_\\u62A5\\u544A\\u5931\\u8D25_\\u901A\\u77E5\")",
+                    "target": "error(\"[BPM] Failed to create report:\", e);\n      new import_obsidian9.Notice(this.t(\"\\u6392\\u67E5_\\u62A5\\u544A\\u5931\\u8D25_\\u901A\\u77E5\")"
+                },
+                {
+                    "source": "setButtonText(`\\u{1F44E} ${this.t(\"\\u6392\\u67E5_\\u95EE\\u9898\\u8FD8\\u5728_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u{1F44E} ${this.t(\"\\u6392\\u67E5_\\u95EE\\u9898\\u8FD8\\u5728_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "setButtonText(`\\u{1F44D} ${this.t(\"\\u6392\\u67E5_\\u95EE\\u9898\\u6D88\\u5931_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u{1F44D} ${this.t(\"\\u6392\\u67E5_\\u95EE\\u9898\\u6D88\\u5931_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "setButtonText(`\\u{1F504} ${this.t(\"\\u6392\\u67E5_\\u91CD\\u542F_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u{1F504} ${this.t(\"\\u6392\\u67E5_\\u91CD\\u542F_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "setButtonText(`\\u21A9\\uFE0F ${this.t(\"\\u6392\\u67E5_\\u64A4\\u9500_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u21A9\\uFE0F ${this.t(\"\\u6392\\u67E5_\\u64A4\\u9500_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "setButtonText(`\\u{1F6AA} ${this.t(\"\\u6392\\u67E5_\\u9000\\u51FA_\\u6309\\u94AE\")}`)",
+                    "target": "setButtonText(`\\u{1F6AA} ${this.t(\"\\u6392\\u67E5_\\u9000\\u51FA_\\u6309\\u94AE\")}`)"
+                },
+                {
+                    "source": "log(\"[BPM] install from GitHub\", { repo, version, tag });\n    const manifestUrl = pickAsset(release, \"manifest.json\")",
+                    "target": "log(\"[BPM] install from GitHub\", { repo, version, tag });\n    const manifestUrl = pickAsset(release, \"manifest.json\")"
+                },
+                {
+                    "source": "Notice(\"manifest.json \\u7F3A\\u5C11 id \\u5B57\\u6BB5\\uFF0C\\u65E0\\u6CD5\\u5B89\\u88C5\\u3002\")",
+                    "target": "Notice(\"manifest.json \\u7F3A\\u5C11 id \\u5B57\\u6BB5\\uFF0C\\u65E0\\u6CD5\\u5B89\\u88C5\\u3002\")"
+                },
+                {
+                    "source": "Notice(\"\\u4E3B\\u9898 manifest \\u7F3A\\u5C11 name \\u5B57\\u6BB5\\u3002\")",
+                    "target": "Notice(\"\\u4E3B\\u9898 manifest \\u7F3A\\u5C11 name \\u5B57\\u6BB5\\u3002\")"
+                },
+                {
+                    "source": "error(\"fetch versions in modal failed\", e);\n        new import_obsidian12.Notice(t(\"\\u7BA1\\u7406\\u5668_\\u9009\\u62E9\\u7248\\u672C_\\u83B7\\u53D6\\u5931\\u8D25\\u63D0\\u793A\")",
+                    "target": "error(\"fetch versions in modal failed\", e);\n        new import_obsidian12.Notice(t(\"\\u7BA1\\u7406\\u5668_\\u9009\\u62E9\\u7248\\u672C_\\u83B7\\u53D6\\u5931\\u8D25\\u63D0\\u793A\")"
+                },
+                {
+                    "source": "error(\"[BPM] Restore failed:\", e);\n                new import_obsidian13.Notice(this.manager.translator.t(\"Ribbon_\\u590D\\u6D3B\\u5931\\u8D25\")",
+                    "target": "error(\"[BPM] Restore failed:\", e);\n                new import_obsidian13.Notice(this.manager.translator.t(\"Ribbon_\\u590D\\u6D3B\\u5931\\u8D25\")"
+                },
+                {
+                    "source": "setText(`${processed}/${total}${current ? ` \\xB7 ${current}` : \"\"}`)",
+                    "target": "setText(`${processed}/${total}${current ? ` \\xB7 ${current}` : \"\"}`)"
+                },
+                {
+                    "source": "error(\"\\u68C0\\u67E5\\u66F4\\u65B0\\u65F6\\u51FA\\u9519:\", error);\n        new import_obsidian14.Notice(this.manager.translator.t(\"\\u901A\\u77E5_\\u68C0\\u67E5\\u66F4\\u65B0\\u5931\\u8D25\")",
+                    "target": "error(\"\\u68C0\\u67E5\\u66F4\\u65B0\\u65F6\\u51FA\\u9519:\", error);\n        new import_obsidian14.Notice(this.manager.translator.t(\"\\u901A\\u77E5_\\u68C0\\u67E5\\u66F4\\u65B0\\u5931\\u8D25\")"
+                },
+                {
+                    "source": "error(\"[BPM] reload manifests failed\", e);\n        new import_obsidian14.Notice(this.manager.translator.t(\"\\u7BA1\\u7406\\u5668_\\u91CD\\u8F7D\\u63D2\\u4EF6_\\u5931\\u8D25\\u63D0\\u793A\")",
+                    "target": "error(\"[BPM] reload manifests failed\", e);\n        new import_obsidian14.Notice(this.manager.translator.t(\"\\u7BA1\\u7406\\u5668_\\u91CD\\u8F7D\\u63D2\\u4EF6_\\u5931\\u8D25\\u63D0\\u793A\")"
+                },
+                {
+                    "source": "log(\"[BPM] render showData after loop, cards:\", cards.length, \"ids:\", cards.map((el) => el.getAttribute(\"data-plugin-id\")",
+                    "target": "log(\"[BPM] render showData after loop, cards:\", cards.length, \"ids:\", cards.map((el) => el.getAttribute(\"data-plugin-id\")"
+                },
+                {
+                    "source": "setDesc(`${this.manager.translator.t(\"\\u8BBE\\u7F6E_\\u57FA\\u7840\\u8BBE\\u7F6E_GITHUB_TOKEN_\\u63CF\\u8FF0\")} (${this.manager.translator.t(\"\\u8BBE\\u7F6E_\\u57FA\\u7840\\u8BBE\\u7F6E_GITHUB_TOKEN_\\u6743\\u9650\")})`)",
+                    "target": "setDesc(`${this.manager.translator.t(\"\\u8BBE\\u7F6E_\\u57FA\\u7840\\u8BBE\\u7F6E_GITHUB_TOKEN_\\u63CF\\u8FF0\")} (${this.manager.translator.t(\"\\u8BBE\\u7F6E_\\u57FA\\u7840\\u8BBE\\u7F6E_GITHUB_TOKEN_\\u6743\\u9650\")})`)"
+                },
+                {
+                    "source": "appendText(` [${tag.id}]`)",
+                    "target": "appendText(` [${tag.id}]`)"
+                },
+                {
+                    "source": "appendText(` [${group.id}]`)",
+                    "target": "appendText(` [${group.id}]`)"
+                },
+                {
+                    "source": "Notice(`[\\u63D2\\u4EF6\\u7BA1\\u7406\\u5668] \\u672A\\u77E5\\u63D2\\u4EF6ID: ${id}`)",
+                    "target": "Notice(`[\\u63D2\\u4EF6\\u7BA1\\u7406\\u5668] \\u672A\\u77E5\\u63D2\\u4EF6ID: ${id}`)"
+                },
+                {
+                    "source": "Notice(`[\\u63D2\\u4EF6\\u7BA1\\u7406\\u5668] \\u63D2\\u4EF6 ${pluginRegistry.manifests[id].name} \\u5DF2\\u5B89\\u88C5`)",
+                    "target": "Notice(`[\\u63D2\\u4EF6\\u7BA1\\u7406\\u5668] \\u63D2\\u4EF6 ${pluginRegistry.manifests[id].name} \\u5DF2\\u5B89\\u88C5`)"
+                },
+                {
+                    "source": "setText(`\\u26A0\\uFE0F ${this.t(\"\\u81EA\\u68C0_\\u68C0\\u6D4B\\u5230\\u63D2\\u4EF6_\\u6807\\u9898\")}`)",
+                    "target": "setText(`\\u26A0\\uFE0F ${this.t(\"\\u81EA\\u68C0_\\u68C0\\u6D4B\\u5230\\u63D2\\u4EF6_\\u6807\\u9898\")}`)"
+                },
+                {
+                    "source": "error(\"[BPM] Failed to save workspace config\", e);\n      new import_obsidian25.Notice(\"\\u4FDD\\u5B58 Ribbon \\u914D\\u7F6E\\u5931\\u8D25\\uFF0C\\u8BF7\\u67E5\\u770B\\u63A7\\u5236\\u53F0\")",
+                    "target": "error(\"[BPM] Failed to save workspace config\", e);\n      new import_obsidian25.Notice(\"\\u4FDD\\u5B58 Ribbon \\u914D\\u7F6E\\u5931\\u8D25\\uFF0C\\u8BF7\\u67E5\\u770B\\u63A7\\u5236\\u53F0\")"
+                },
+                {
+                    "source": "log(\"[BPM] Detected workspace config change, reloading...\")",
+                    "target": "log(\"[BPM] Detected workspace config change, reloading...\")"
+                },
+                {
+                    "source": "log(`%c ${this.manifest.name} %c v${this.manifest.version} `, `padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;`, `padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;`)",
+                    "target": "log(`%c ${this.manifest.name} %c v${this.manifest.version} `, `padding: 2px; border-radius: 2px 0 0 2px; color: #fff; background: #5B5B5B;`, `padding: 2px; border-radius: 0 2px 2px 0; color: #fff; background: #409EFF;`)"
+                },
+                {
+                    "source": "log(`[BPM] Drag-to-hide triggered for: ${label} (${targetId})`)",
+                    "target": "log(`[BPM] Drag-to-hide triggered for: ${label} (${targetId})`)"
+                },
+                {
+                    "source": "setText(`${processed}/${total}${currentId ? ` \\xB7 ${currentId}` : \"\"}`)",
+                    "target": "setText(`${processed}/${total}${currentId ? ` \\xB7 ${currentId}` : \"\"}`)"
+                },
+                {
+                    "source": "error(\"[BPM] startup check updates failed\", e);\n      if (!this.settings.GITHUB_TOKEN) {\n        new import_obsidian27.Notice(this.translator.t(\"\\u901A\\u77E5_\\u68C0\\u67E5\\u66F4\\u65B0\\u5931\\u8D25_\\u5EFA\\u8BAEToken\")",
+                    "target": "error(\"[BPM] startup check updates failed\", e);\n      if (!this.settings.GITHUB_TOKEN) {\n        new import_obsidian27.Notice(this.translator.t(\"\\u901A\\u77E5_\\u68C0\\u67E5\\u66F4\\u65B0\\u5931\\u8D25_\\u5EFA\\u8BAEToken\")"
+                },
+                {
+                    "source": "error(\"\\u540C\\u6B65\\u542F\\u7528/\\u7981\\u7528\\u63D2\\u4EF6\\u5931\\u8D25\", e);\n            } finally {\n              this.hideToggleNotice();\n            }\n          }\n        }\n      }\n      const repo = safe(\"bpm_rwc_repo\")",
+                    "target": "error(\"\\u540C\\u6B65\\u542F\\u7528/\\u7981\\u7528\\u63D2\\u4EF6\\u5931\\u8D25\", e);\n            } finally {\n              this.hideToggleNotice();\n            }\n          }\n        }\n      }\n      const repo = safe(\"bpm_rwc_repo\")"
+                },
+                {
+                    "source": "error(\"\\u540C\\u6B65\\u5BFC\\u5165 BPM \\u7B14\\u8BB0\\u5931\\u8D25\", e);\n    }\n  }\n  parseFrontmatter(content) {\n    if (!content.startsWith(\"---\")",
+                    "target": "error(\"\\u540C\\u6B65\\u5BFC\\u5165 BPM \\u7B14\\u8BB0\\u5931\\u8D25\", e);\n    }\n  }\n  parseFrontmatter(content) {\n    if (!content.startsWith(\"---\")"
+                },
+                {
+                    "source": "error(\"\\u83B7\\u53D6\\u5B98\\u65B9\\u63D2\\u4EF6 stats \\u5931\\u8D25\", e);\n      return {};\n    }\n  }\n  getLatestVersionFromStats(entry) {\n    const versions = Object.keys(entry || {}).filter((k) => k !== \"downloads\" && k !== \"updated\")",
+                    "target": "error(\"\\u83B7\\u53D6\\u5B98\\u65B9\\u63D2\\u4EF6 stats \\u5931\\u8D25\", e);\n      return {};\n    }\n  }\n  getLatestVersionFromStats(entry) {\n    const versions = Object.keys(entry || {}).filter((k) => k !== \"downloads\" && k !== \"updated\")"
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: `[${plugin.version}]`",
+                    "target": "text: `[${plugin.version}]`"
+                },
+                {
+                    "source": "text: `${d.time}s`",
+                    "target": "text: `${d.time}s`"
+                },
+                {
+                    "source": "description: `\\u9A8C\\u8BC1: ${this.getPluginName(pair[1])}`",
+                    "target": "description: `\\u9A8C\\u8BC1: ${this.getPluginName(pair[1])}`"
+                },
+                {
+                    "source": "text: `\\u{1F3AF} ${this.t(\"\\u62A5\\u544A_\\u53D1\\u73B0\\u95EE\\u9898\\u63D2\\u4EF6\")}`",
+                    "target": "text: `\\u{1F3AF} ${this.t(\"\\u62A5\\u544A_\\u53D1\\u73B0\\u95EE\\u9898\\u63D2\\u4EF6\")}`"
+                },
+                {
+                    "source": "text: \"\\u{1F50C}\"",
+                    "target": "text: \"\\u{1F50C}\""
+                },
+                {
+                    "source": "text: `v${plugin1Version}`",
+                    "target": "text: `v${plugin1Version}`"
+                },
+                {
+                    "source": "text: `\\u{1F4CB} ${this.t(\"\\u6392\\u67E5_\\u5EFA\\u8BAE_\\u6807\\u9898\")}`",
+                    "target": "text: `\\u{1F4CB} ${this.t(\"\\u6392\\u67E5_\\u5EFA\\u8BAE_\\u6807\\u9898\")}`"
+                },
+                {
+                    "source": "text: `\\u{1F3AF} ${this.t(\"\\u6392\\u67E5_\\u53D1\\u73B0\\u51B2\\u7A81_\\u6587\\u672C\")}`",
+                    "target": "text: `\\u{1F3AF} ${this.t(\"\\u6392\\u67E5_\\u53D1\\u73B0\\u51B2\\u7A81_\\u6587\\u672C\")}`"
+                },
+                {
+                    "source": "text: \"\\u26A1\"",
+                    "target": "text: \"\\u26A1\""
+                },
+                {
+                    "source": "text: `v${plugin2Version}`",
+                    "target": "text: `v${plugin2Version}`"
+                },
+                {
+                    "source": "text: `${this.t(\"\\u6392\\u67E5_\\u603B\\u6B65\\u9AA4_\\u6587\\u672C\")}: ${this.state.currentStep}`",
+                    "target": "text: `${this.t(\"\\u6392\\u67E5_\\u603B\\u6B65\\u9AA4_\\u6587\\u672C\")}: ${this.state.currentStep}`"
+                },
+                {
+                    "source": "text: `${this.t(\"\\u6392\\u67E5_\\u5F53\\u524D\\u542F\\u7528_\\u6587\\u672C\")}: ${enabledPlugins.length}`",
+                    "target": "text: `${this.t(\"\\u6392\\u67E5_\\u5F53\\u524D\\u542F\\u7528_\\u6587\\u672C\")}: ${enabledPlugins.length}`"
+                },
+                {
+                    "source": "text: `${this.t(\"\\u6392\\u67E5_\\u9884\\u8BA1\\u6B65\\u9AA4_\\u6587\\u672C\")}: ~${estimatedSteps}`",
+                    "target": "text: `${this.t(\"\\u6392\\u67E5_\\u9884\\u8BA1\\u6B65\\u9AA4_\\u6587\\u672C\")}: ~${estimatedSteps}`"
+                },
+                {
+                    "source": "text: `${this.t(\"\\u6392\\u67E5_\\u6B65\\u9AA4_\\u6587\\u672C\")} ${this.state.currentStep}`",
+                    "target": "text: `${this.t(\"\\u6392\\u67E5_\\u6B65\\u9AA4_\\u6587\\u672C\")} ${this.state.currentStep}`"
+                },
+                {
+                    "source": "text: `${this.t(\"\\u6392\\u67E5_\\u5F53\\u524D\\u6D4B\\u8BD5\")}: ${this.lastDescription}`",
+                    "target": "text: `${this.t(\"\\u6392\\u67E5_\\u5F53\\u524D\\u6D4B\\u8BD5\")}: ${this.lastDescription}`"
+                },
+                {
+                    "source": "text: `${percent}%`",
+                    "target": "text: `${percent}%`"
+                },
+                {
+                    "source": "text: `\\u2705 ${this.t(\"\\u6392\\u67E5_\\u5DF2\\u542F\\u7528_\\u6587\\u672C\")} (${currentEnabled.length})`",
+                    "target": "text: `\\u2705 ${this.t(\"\\u6392\\u67E5_\\u5DF2\\u542F\\u7528_\\u6587\\u672C\")} (${currentEnabled.length})`"
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "text: \"\\u2192\"",
+                    "target": "text: \"\\u2192\""
+                },
+                {
+                    "source": "name: `${mp.enabled ? manager.translator.t(\"\\u901A\\u7528_\\u5173\\u95ED_\\u6587\\u672C\") : manager.translator.t(\"\\u901A\\u7528_\\u5F00\\u542F_\\u6587\\u672C\")} ${mp.name} `",
+                    "target": "name: `${mp.enabled ? manager.translator.t(\"\\u901A\\u7528_\\u5173\\u95ED_\\u6587\\u672C\") : manager.translator.t(\"\\u901A\\u7528_\\u5F00\\u542F_\\u6587\\u672C\")} ${mp.name} `"
+                },
+                {
+                    "source": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u542F\\u7528_\\u6587\\u672C\")} ${group.name}`",
+                    "target": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u542F\\u7528_\\u6587\\u672C\")} ${group.name}`"
+                },
+                {
+                    "source": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u7981\\u7528_\\u6587\\u672C\")} ${group.name}`",
+                    "target": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u7981\\u7528_\\u6587\\u672C\")} ${group.name}`"
+                },
+                {
+                    "source": "name: `${enabled ? manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u7981\\u7528_\\u6587\\u672C\") : manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u542F\\u7528_\\u6587\\u672C\")} ${plugin.name} `",
+                    "target": "name: `${enabled ? manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u7981\\u7528_\\u6587\\u672C\") : manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u542F\\u7528_\\u6587\\u672C\")} ${plugin.name} `"
+                },
+                {
+                    "source": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u542F\\u7528_\\u6587\\u672C\")} ${group.name} ${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u5206\\u7EC4_\\u6587\\u672C\")}`",
+                    "target": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u542F\\u7528_\\u6587\\u672C\")} ${group.name} ${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u5206\\u7EC4_\\u6587\\u672C\")}`"
+                },
+                {
+                    "source": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u7981\\u7528_\\u6587\\u672C\")} ${group.name} ${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u5206\\u7EC4_\\u6587\\u672C\")}`",
+                    "target": "name: `${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u4E00\\u952E\\u7981\\u7528_\\u6587\\u672C\")} ${group.name} ${manager.translator.t(\"\\u547D\\u4EE4\\u884C_\\u5206\\u7EC4_\\u6587\\u672C\")}`"
+                },
+                {
+                    "source": "text: `${name} (${id})`",
+                    "target": "text: `${name} (${id})`"
+                }
+            ]
+        }
+    }
+}
